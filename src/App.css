@@ -2,25 +2,22 @@
     text-align: center;
 }
 
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.App-header-smiley-Btn {
+    height: 26px;
+    width: 26px;
+    border: none;
+    background: url('../public/sprites/minesweeper-sprites_smiley.jpg');
 }
 
-.App-container-minefield {
+.App-minefield {
     display: grid;
     grid-template-columns: repeat(16, 16px);
+    justify-content: center;
 }
 
-.App-container-minefield button {
+.App-minefield button {
     height: 16px;
     width: 16px;
     border: none;
-    background: url('sprites/minesweeper-sprites_cell.jpg');
+    background: url('../public/sprites/minesweeper-sprites_cell.jpg');
 }
